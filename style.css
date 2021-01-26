@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 5px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+.nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+    font-weight: bold;
+    /*font-size: 26px;*/
+}
+
+.rightNav{ 
+    width: 29%;
+    text-align: right;
+    padding: 0 13px;
+    position: relative;
+    /*left: 64px;*/
+}
+
+.rightNav p{ 
+    color: white;
+    text-align: center;
+    padding: 0px 13px;
+    font-family: 'Ubuntu', sans-serif;
+
+  
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img/bg11.jpg');   
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 798px;
+}
+.about-text h3{
+    font-size: 100px;
+    color: violet;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 78%;
+    margin: auto;
+    height: 67%;
+    text-align: center;
+}
+
+.firstHalf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+}
+
+#heading{
+    font-size: 51px;
+    color: #d9da93;
+    align-items: center;
+    width: 99vw;
+    height: 161px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-family: cursive;
+}
+.location{
+    color: aliceblue;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.service{
+    font-size: 39px;
+    text-align: center;
+    /*margin-top: 31px;*/
+    margin-top: 18px;
+    padding: 12px;
+}
+
+.greeting-text{
+    color: wheat;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.text-big{
+    font-size: 38px;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-weight: inherit;
+
+}
+
+.text-small{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    
+}
+
+.button{
+    color: black;
+    vertical-align: middle;
+    padding: 9px 14px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 17px;
+    background: darkgray;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    outline: none;
+}
+
+.button:hover{
+    color: black;
+    font-size: 22px;
+}
+
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 19px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.services{
+    font-weight: bold;
+    height: 368px;
+    background-color: blanchedalmond;
+
+}
+
+.service-text{
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 268px;
+    padding-top: 5px;
+    font-family: cursive;
+    padding: 0px 90px;
+   
+}
+
+.services-text-center{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 53px;
+    font-weight: bold;
+
+}
+.contact{
+    background-color: #ded9db;
+    height: 595px;
+
+}
+
+.text-center{
+
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.form{
+    max-width: 42%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%;
+    /* height: 43px; */
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer{
+    text-align: center;
+    padding: 11px 0;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-size: 14px;
+   
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}

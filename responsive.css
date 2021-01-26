@@ -1,0 +1,145 @@
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+    .burger{
+    display: block;
+    }
+    .h-nav-resp{
+        height: 63px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras {
+    padding: 0px;
+    }
+    .service-text {
+        font-size: 28px;
+        padding: 9px 6px;
+    }
+    .services {
+        height: 393px;
+     
+    }
+    .form{
+        max-width: 62%;
+    }
+    #heading{
+        font-size: 41px;
+    }
+    .fa{
+        margin-top: 8px;
+    }
+    .location{
+        font-size: 28px;
+    }
+    .nav-list li {
+        padding: 19px 30px;
+    }
+    .logo img {
+        width: 62%;
+        border: 2px solid white;
+        border-radius: 15px;
+        margin: 0px;
+    }
+    
+    
+}
+@media only screen and (max-width: 612px){
+    .service-text {
+        font-size: 23px;
+    }
+    .services-text-center {
+        font-size: 47px;
+    }
+    .location {
+        font-size: 22px;
+    }
+    .service {
+        font-size: 28px;
+        font-family: 'Ubuntu', sans-serif;
+        
+       
+    }
+    .greeting-text {
+        font-size: 23px;
+       
+    }
+    .text-big {
+        font-size: 28px;
+        font-family: 'Ubuntu', sans-serif;
+
+       
+    }
+    .text-footer{
+        font-size: 11px;
+    }
+    #heading{
+        font-size: 32px;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+
+}
+@media only screen and (max-width: 380px){
+    .services-text-center {
+        font-size: 42px;
+    }
+    .service-text {
+        font-size: 21px;
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+    .text-big {
+        font-size: 23px;
+        font-family: 'Ubuntu', sans-serif;
+
+       
+    }
+    .service {
+        font-size: 23px;
+        font-family: 'Ubuntu', sans-serif;
+        
+       
+    }
+    
+    .logo {
+        width: 27%;
+    }
+
+    #heading{
+        font-size: 32px;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+}
